@@ -1,0 +1,118 @@
+@font-face {
+  font-family: myfont;
+  src: url("font/GardensC.otf");
+} 
+body {
+  font-family: myfont;
+  background: rgba(24, 26, 31, 0.925);
+}
+#header {
+  position: relative;
+  height: 59vw;
+    margin-bottom: -320px;
+  color: rgb(255, 248, 248);
+  background-image: url("image/first-page-bg.png");
+  background-size:100vw;
+  background-repeat: no-repeat;
+}
+#header > * {
+  display: block;
+  position: absolute;
+}
+.desk {
+  top: 40px;
+  right: 3vw;
+  font-size: 3vw;
+}
+.h1 {
+  top: 9vw;
+  font-size: 17vw;
+  right: 4vw;
+}
+.img{
+  width:2vw;
+  height: 2vw; 
+  right: 16vw;
+}
+.img2 {
+  width: 34vw;
+  height: 46vw;
+  top: 5vw;
+}
+.knopka{
+  top: 5.5vw;
+  width: 3vw;
+  height:3vw;
+  background-color: rgba(134, 113, 113, 0.01);
+  border: 0.1;
+}
+.slider{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  background: powderblue;
+}
+.imge{
+  position: absolute;
+  width:15vw;
+  height:15vw;
+  top: 55vw;
+}
+.imgeg{
+  position: absolute;
+  top: 60vw;
+  margin: auto;
+}
+.item{
+  width:10vw;
+  height:45vw;
+  margin:auto;
+}
+.text{
+  font-size: 1.4vw;
+  background: rgb(66, 113, 175);
+}
+.imgef{
+  position: absolute;
+  width:20vw;
+  height:20vw;
+  top: 110vw;
+}
+.slider2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background: powderblue;
+}   
+.p{
+  position: absolute;
+  top: 130vw;
+}
+.p2{
+  position: absolute;
+  top: 155vw;
+}
+.p3{
+  position: absolute;
+  top: 180vw;
+}
+.slider3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background: powderblue;
+}  
+.slider4{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background: powderblue;
+}  
+.im{
+  position: absolute;
+  width:20vw;
+  height:20vw;
+  top: 135vw;
+}
+.im1{
+  position: absolute;
+  width:20vw;
+  height:20vw;
+  top: 160vw;
+}
